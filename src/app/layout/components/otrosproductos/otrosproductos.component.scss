@@ -68,5 +68,14 @@
 /* ------------------------------------------------ */
 
 @media screen and (max-width: 768px) {
-
+  .otrosproductos-contenido{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 468px) {
+  .otrosproductos-contenido{
+    display: flex;
+    flex-direction: column;
+  }
 }

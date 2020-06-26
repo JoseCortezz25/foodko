@@ -87,3 +87,17 @@
     margin-right: 0px;
   }
 }
+
+@media screen and (max-width: 468px) {
+  .contenedor-popularfoods__header{
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor-popularfoods__contenido{
+    display: flex;
+    flex-direction: column;
+  }
+  .caja-post{
+    margin-top: 20px;
+  }
+}
