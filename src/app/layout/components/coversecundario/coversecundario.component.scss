@@ -1,0 +1,44 @@
+.coversecundario{
+    background: linear-gradient(to right, #ffffff, #F7EBD3);
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coversecundario .contenido{
+  width: 60%;
+  padding-right: 20px;
+  // border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coversecundario .contenido h2{
+  line-height: 20px;
+  text-align: center;
+  font-size: 2.7em;
+}
+
+.coversecundario .contenido h2:nth-of-type(2){
+  color: #9A91A7;
+}
+
+.coversecundario .contenido p{
+  margin-top: 2em;
+  text-align: center;
+}
+
+.coversecundario .contenido button{
+  background-color: #12122C;
+  color: #fff;
+  padding: 13px 18px;
+  border-radius: 25px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
